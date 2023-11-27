@@ -1,0 +1,173 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sec{
+    background-color: rgb(10, 10, 10)!important;
+}
+
+.name{
+    font-size: 65px;
+    width: 90%;
+}
+.line{
+    color: aquamarine;
+    border: 1px solid;
+    width: 50%;
+    margin-top: -10px;
+    margin-left: 270px;
+}
+
+.lo{
+    font-size: 1.25rem;
+}
+
+.sline{
+    color: aquamarine;
+    border: 1px solid;
+    width: 12%;
+    margin-top: -15px;
+}
+
+.abilities{
+    gap: 115px;
+}
+
+.sline2 {
+    color: aquamarine;
+    border: 1px solid;
+    width: 100%;
+    margin-top: -15px;
+}
+
+.footer{
+    background-color: rgb(65, 59, 59) !important;
+}
+
+.sline3 {
+    color: aquamarine;
+    border: 1px solid;
+    width: 93%;
+    margin-top: -11px;
+}
+
+.text{
+    width: 40%;
+}
+
+.icons{
+    gap: 20px;
+}
+
+@media(max-width:500px){
+
+    .na{
+        flex-direction: column;
+        row-gap: 37px;
+        width: 100%;
+    }
+
+    .name-div{
+        width: 100%;
+    }
+
+
+    .name{
+        font-size:25px;
+        width: 100%;
+    }
+
+    .line {
+      width: 40%;
+      margin-top: -10px;
+      margin-left: 40px;
+    }
+
+    .lo{
+        width: 100%;
+        margin-left: 0px;
+        font-size: 1rem;
+    }
+
+    .img{
+        width: 100%!important;
+    }
+
+    .abilities{
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .acce{
+        margin: 0;
+    }
+
+    .boot{
+        margin: 0;
+    }
+
+    .tail{
+        margin: 0;
+    }
+
+    .project{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .pro{
+        flex-direction: column;
+        align-items: center;
+        margin-left: -10px;
+        padding: 35px 0;
+    }
+
+    .pro img{
+        width: 100%;
+    }
+
+    .landing{
+        flex-direction: column;
+        width: 100%;
+        row-gap: 45px;
+    }
+
+    .landing img{
+        width: 100%;
+    }
+
+    .form{
+        flex-direction: column;
+        row-gap: 25px;
+        width: 100%;
+        padding: 0px 25px;
+    }
+
+    .contact{
+        width: 100%;
+    }
+
+    .contact h1{
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact p{
+        width: 100%;
+    }
+
+    .sline3 {
+        width: 66%;
+    }
+
+    .last-item{
+        padding-bottom: 30px;
+    }
+
+
+
+   
+}
