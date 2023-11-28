@@ -19,8 +19,13 @@
     margin-left: 270px;
 }
 
+.img{
+    width: 50%;
+}
+
 .lo{
     font-size: 1.25rem;
+    width: 50%;
 }
 
 .sline{
@@ -65,17 +70,10 @@
     .na{
         flex-direction: column;
         row-gap: 37px;
-        width: 100%;
     }
-
-    .name-div{
-        width: 100%;
-    }
-
 
     .name{
         font-size:25px;
-        width: 100%;
     }
 
     .line {
@@ -85,13 +83,16 @@
     }
 
     .lo{
-        width: 100%;
-        margin-left: 0px;
+        width: 100%!important;
         font-size: 1rem;
     }
 
     .img{
         width: 100%!important;
+    }
+
+    .img img{
+        width: 100%;
     }
 
     .abilities{
@@ -120,9 +121,7 @@
 
     .pro{
         flex-direction: column;
-        align-items: center;
-        margin-left: -10px;
-        padding: 35px 0;
+        row-gap: 60px;
     }
 
     .pro img{
@@ -165,9 +164,7 @@
 
     .last-item{
         padding-bottom: 30px;
-    }
-
-
-
-   
+    }   
 }
+
+
