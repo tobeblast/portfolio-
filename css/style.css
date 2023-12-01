@@ -21,6 +21,7 @@
     width: 50%;
     margin-top: -10px;
     margin-left: 270px;
+    display: block;
 }
 
 .img{
@@ -93,9 +94,7 @@
     }
 
     .line {
-      width: 40%;
-      margin-top: -10px;
-      margin-left: 40px;
+        display: none;
     }
 
     .lo{
