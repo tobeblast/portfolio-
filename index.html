@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <section class="sec container-fluid px-0 overflow-hidden">
@@ -109,7 +110,7 @@
         <!-- Name and picture -->
         <div class="na container d-flex mt-5 mb-5">
           <div class="text-white">
-            <div class="namep">
+            <div data-aos="fade-up" data-aos-duration="2000" class="namep">
               <h1 class="name fw-bold">
                 Nice to meet you! I'm Nwanne Tobechukwu.
               </h1>
@@ -134,7 +135,7 @@
             </a>
             <div class="sline"></div>
           </div>
-          <div class="img">
+          <div class="img" data-aos="fade-up" data-aos-duration="2000">
             <img
               src="./image/IMG_20231125_114842.jpg"
               alt="Tobepic"
@@ -152,17 +153,29 @@
         <div
           class="abilities container text-white d-flex mt-5 justify-content-center"
         >
-          <div class="acce me-lg-5">
+          <div
+            class="acce me-lg-5"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <h2 class="mb-lg-5">HTML</h2>
             <h2>Tailwind</h2>
           </div>
 
-          <div class="boot ms-lg-5 me-lg-5">
+          <div
+            class="boot ms-lg-5 me-lg-5"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          >
             <h2 class="mb-lg-5">CSS</h2>
             <h2>Bootstrap</h2>
           </div>
 
-          <div class="tail ms-lg-5">
+          <div
+            class="tail ms-lg-5"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          >
             <h2 class="mb-lg-5">Git</h2>
             <h2>JavaScript</h2>
           </div>
@@ -190,7 +203,11 @@
         <!-- Project Images -->
         <div>
           <!-- First Line of Projects -->
-          <div class="pro d-flex">
+          <div
+            class="pro d-flex"
+            data-aos="fade-right"
+            data-aos-duration="2500"
+          >
             <div>
               <a href="https://tobeblast.github.io/firstrepo" target="_blank">
                 <img src="./image/form2-desktop.png" alt="form" width="80%" />
@@ -223,7 +240,11 @@
           </div>
 
           <!-- Second Line of Projects -->
-          <div class="landing d-flex mt-5">
+          <div
+            class="landing d-flex mt-5"
+            data-aos="fade-left"
+            data-aos-duration="2500"
+          >
             <div>
               <a href="https://tobeblast.github.io/easy-bank" target="_blank">
                 <img
@@ -268,7 +289,7 @@
       <footer class="footer container-fluid px-0 text-white mt-5">
         <div class="container pt-5">
           <div class="form d-flex mb-5">
-            <div class="contact">
+            <div class="contact" data-aos="fade-up" data-aos-duration="2000">
               <h1>Contact</h1>
               <p class="text">
                 I would love to hear about your project and how I could help,
@@ -278,7 +299,7 @@
             </div>
 
             <!-- Form -->
-            <div>
+            <div data-aos="fade-up" data-aos-duration="2000">
               <input
                 type="text"
                 placeholder="NAME"
@@ -364,5 +385,9 @@
       </footer>
     </section>
     <script src="./js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
