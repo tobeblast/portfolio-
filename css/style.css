@@ -68,6 +68,7 @@
     width: 100%;
     color: white;
     background-color: aqua;
+    margin-top: 10px;
 }
 .text{
     width: 40%;
@@ -77,6 +78,15 @@
     gap: 20px;
 }
 
+.contact input, textarea{
+    border: 0px!important;
+    outline: 0px!important;
+    background-color: transparent!important;
+    border-bottom: 2px solid white!important;
+    padding-bottom: 3px!important;
+    margin-bottom: 10px!important;
+
+}
 @media(max-width:500px){
 
     .na{
