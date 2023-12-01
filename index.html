@@ -299,37 +299,44 @@
             </div>
 
             <!-- Form -->
-            <div data-aos="fade-up" data-aos-duration="2000">
-              <input
-                type="text"
-                placeholder="Name"
-                class="bg-transparent border-0 text-white"
-              />
-              <hr class="mt-0 bg-white" />
-              <input
-                type="email"
-                placeholder="Email"
-                class="bg-transparent border-0 text-white"
-              />
-              <hr class="mt-0 bg-white" />
-              <textarea
-                cols="30"
-                class="bg-transparent border-0 text-white"
-                placeholder="Message"
-              ></textarea>
-              <hr class="mt-0 bg-white" />
-              <div class="ms-lg-4">
-                <a
-                  class="text-decoration-none text-white"
-                  href="https//:tobeblast.github.io/facebook"
-                  target="_blank"
-                >
-                  <div class="btn">
-                    <button type="submit">SEND MESSAGE</button>
-                  </div>
-                </a>
+            <form
+              action="https://formsubmit.co/tobeblast06@gmail.com"
+              method="POST"
+            >
+              <div data-aos="fade-up" data-aos-duration="2000">
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  placeholder="Name"
+                  required
+                  class="bg-transparent border-0 text-white"
+                />
+                <hr class="mt-0 bg-white" />
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="Email"
+                  required
+                  class="bg-transparent border-0 text-white"
+                />
+                <hr class="mt-0 bg-white" />
+                <textarea
+                  id="message"
+                  name="message"
+                  required
+                  cols="30"
+                  class="bg-transparent border-0 text-white"
+                  placeholder="Message"
+                ></textarea>
+                <hr class="mt-0 bg-white" />
+
+                <div class="btn">
+                  <button type="submit">SEND MESSAGE</button>
+                </div>
               </div>
-            </div>
+            </form>
           </div>
 
           <div class="mb-4">
