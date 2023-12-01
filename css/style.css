@@ -7,6 +7,10 @@
     background-color: rgb(10, 10, 10)!important;
 }
 
+.navbar-toggler{
+    border: 1px solid white!important;
+}
+
 .name{
     font-size: 65px;
     width: 90%;
@@ -50,18 +54,20 @@
     background-color: rgb(65, 59, 59) !important;
 }
 
-.s3div{
-    text-align: end;
+.btn{
+    width: 100%;
+    align-items: end;
+    display: flex;
 }
 
-.sline3 {
-    color: aquamarine;
-    border: 1px solid;
-    width: 70%;
-    margin-top: -11px;
-    margin-left: 65px;
+.btn button{
+    border-radius: 40px!important;
+    padding: 5px;
+    border: 0;
+    width: 100%;
+    color: white;
+    background-color: aqua;
 }
-
 .text{
     width: 40%;
 }
@@ -77,8 +83,13 @@
         row-gap: 37px;
     }
 
+    .namep{
+        text-align: center;
+    }
+
     .name{
         font-size:25px;
+        width: 100%;
     }
 
     .line {
@@ -165,16 +176,6 @@
 
     .asend{
         margin-left: 0!important;
-    }
-
-    .send{
-        text-align: center;
-    }
-
-    .sline3 {
-        width: 60%;
-        margin-left: 49px;
-
     }
 
     .last-item{
