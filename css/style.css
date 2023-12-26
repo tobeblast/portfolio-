@@ -25,6 +25,17 @@
     display: block;
 }
 
+.new button{
+    color: black;
+    background-color: white;
+    border: 0;
+    border-radius: 3px;
+    padding: 8px 10px;
+}
+
+.new button:hover{
+    scale: 1.1;
+}
 .img{
     width: 50%;
 }
@@ -86,8 +97,44 @@
     border-bottom: 2px solid white!important;
     padding-bottom: 3px!important;
     margin-bottom: 10px!important;
-
 }
+.landing{
+    gap: 30px;
+}
+
+.pro a{
+    text-decoration: none!important;
+}
+
+.form:hover{
+    scale: 1.1;
+}
+
+.profile:hover {
+    scale: 1.1;
+}
+
+.perfume:hover{
+    scale: 1.1;
+}
+
+.landing a{
+    text-decoration: none !important;
+}
+
+.easy:hover{
+    scale: 1.1;
+}
+
+.flyo:hover{
+    scale: 1.1;
+}
+
+.loopstudio:hover{
+    scale: 1.1;
+}
+
+
 @media(max-width:500px){
 
     .na{
