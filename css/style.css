@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
 .sec{
     background-color: rgb(10, 10, 10)!important;
 }
@@ -133,6 +138,10 @@
 
 .loopstudio:hover{
     scale: 1.1;
+}
+
+.footer #form:hover{
+    scale: none;
 }
 
 
