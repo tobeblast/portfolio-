@@ -265,7 +265,7 @@ html{
         width: 100%;
     }
 
-    .form{
+    #form{
         flex-direction: column;
         row-gap: 25px;
         width: 100%;
