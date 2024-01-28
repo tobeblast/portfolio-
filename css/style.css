@@ -1,297 +1,318 @@
-*{
-    padding:0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-.sec{
-    background-color: rgb(10, 10, 10)!important;
+.sec {
+  background-color: rgb(10, 10, 10) !important;
 }
 
-.navbar-toggler{
-    border: 1px solid white!important;
+.navbar-toggler {
+  border: 1px solid white !important;
 }
 
-.name{
-    font-size: 65px;
-    width: 90%;
+.name {
+  font-size: 65px;
+  width: 90%;
 }
 
-.line{
-    color: aquamarine;
-    border: 1px solid;
-    width: 50%;
-    margin-top: -10px;
-    margin-left: 270px;
-    display: block;
+.line {
+  color: aquamarine;
+  border: 1px solid;
+  width: 50%;
+  margin-top: -10px;
+  margin-left: 270px;
+  display: block;
 }
 
-.new button{
-    color: black;
-    background-color: white;
-    border: 0;
-    border-radius: 3px;
-    padding: 8px 10px;
+.new button {
+  color: black;
+  background-color: white;
+  border: 0;
+  border-radius: 3px;
+  padding: 8px 10px;
 }
 
-.new button:hover{
-    scale: 1.1;
+.new button:hover {
+  scale: 1.1;
 }
-.img{
-    width: 50%;
-}
-
-.lo{
-    font-size: 1.25rem;
-    width: 50%;
+.img {
+  width: 50%;
 }
 
-.sline{
-    color: aquamarine;
-    border: 1px solid;
-    width: 12%;
-    margin-top: -15px;
+.lo {
+  font-size: 1.25rem;
+  width: 50%;
 }
 
-.abilities{
-    gap: 115px;
+.sline {
+  color: aquamarine;
+  border: 1px solid;
+  width: 12%;
+  margin-top: -15px;
+}
+
+.abilities {
+  gap: 115px;
 }
 
 .sline2 {
-    color: aquamarine;
-    border: 1px solid;
-    width: 100%;
-    margin-top: -15px;
+  color: aquamarine;
+  border: 1px solid;
+  width: 100%;
+  margin-top: -15px;
 }
 
-.footer{
-    background-color: rgb(65, 59, 59) !important;
+.footer {
+  background-color: rgb(65, 59, 59) !important;
 }
 
-.btn{
-    width: 100%;
-    align-items: end;
-    display: flex;
+.btn {
+  width: 100%;
+  align-items: end;
+  display: flex;
 }
 
-.btn button{
-    border-radius: 40px!important;
-    padding: 5px;
-    border: 0;
-    width: 100%;
-    color: white;
-    background-color: aqua;
-    margin-top: 10px;
+.btn button {
+  border-radius: 40px !important;
+  padding: 5px;
+  border: 0;
+  width: 100%;
+  color: white;
+  background-color: aqua;
+  margin-top: 10px;
 }
 
-.text{
-    width: 40%;
+.text {
+  width: 40%;
 }
 
-.icons{
-    gap: 20px;
+.icons {
+  gap: 20px;
 }
 
-.contact input, textarea{
-    border: 0px!important;
-    outline: 0px!important;
-    background-color: transparent!important;
-    border-bottom: 2px solid white!important;
-    padding-bottom: 3px!important;
-    margin-bottom: 10px!important;
-}
-.landing{
-    gap: 30px;
+.contact input,
+textarea {
+  border: 0px !important;
+  outline: 0px !important;
+  background-color: transparent !important;
+  border-bottom: 2px solid white !important;
+  padding-bottom: 3px !important;
+  margin-bottom: 10px !important;
 }
 
-.pro a{
-    text-decoration: none!important;
+.landing {
+  gap: 30px;
 }
 
-.form:hover{
-    scale: 1.1;
+.pro a {
+  text-decoration: none !important;
+}
+
+.form:hover {
+  scale: 1.1;
 }
 
 .profile:hover {
-    scale: 1.1;
+  scale: 1.1;
 }
 
-.perfume:hover{
-    scale: 1.1;
+.perfume:hover {
+  scale: 1.1;
 }
 
-.landing a{
-    text-decoration: none !important;
+.landing a {
+  text-decoration: none !important;
 }
 
-.easy:hover{
-    scale: 1.1;
+.easy:hover {
+  scale: 1.1;
 }
 
-.flyo:hover{
-    scale: 1.1;
+.flyo:hover {
+  scale: 1.1;
 }
 
-.loopstudio:hover{
-    scale: 1.1;
+.loopstudio:hover {
+  scale: 1.1;
 }
 
-.footer #form:hover{
-    scale: none;
+.footer #form:hover {
+  scale: none;
 }
 
-
-@media(max-width:768px){
-
-    .line{
-        margin-left: 0;
-    }
-
-    .na{
-        flex-direction: column;
-    }
-
-    .name{
-        width: 100%;
-    }
-
-    .new{
-        margin-bottom: 25px;
-    }
-
-    .img{
-        margin-top: 40px;
-        width: 100%;
-    }
-
-    .pro{
-        gap: 25px;
-    }
-
-    .pro h4{
-        font-size: 18px;
-    }
-
-    a :nth-child(2) {
-        padding: 0 !important;
-    }
-
-    .landing h4{
-        font-size: 18px;
-    }
-
-    .contact{
-        width: 120%;
-    }
+.call-mobile {
+    display: none;
 }
 
-@media(max-width:500px){
-
-    .na{
-        flex-direction: column;
-        row-gap: 37px;
-    }
-
-    .namep{
-        text-align: center;
-    }
-
-    .name{
-        font-size:25px;
-        width: 100%;
-    }
-
-    .line {
-        display: none;
-    }
-
-    .lo{
-        width: 100%!important;
-        font-size: 1rem;
-    }
-
-    .img{
-        width: 100%!important;
-    }
-
-    .img img{
-        width: 100%;
-    }
-
-    .abilities{
-        flex-direction: column;
-        row-gap: 10px;
-        align-items: center;
-        text-align: center;
-    }
-
-    .acce{
-        margin: 0;
-    }
-
-    .boot{
-        margin: 0;
-    }
-
-    .tail{
-        margin: 0;
-    }
-
-    .project{
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .pro{
-        flex-direction: column;
-        row-gap: 60px;
-    }
-
-    .pro img{
-        width: 100%;
-    }
-
-    .landing{
-        flex-direction: column;
-        width: 100%;
-        row-gap: 45px;
-    }
-
-    .landing img{
-        width: 100%;
-    }
-
-    #form{
-        flex-direction: column;
-        row-gap: 25px;
-        width: 100%;
-        padding: 0px 25px;
-    }
-
-    .contact{
-        width: 100%;
-    }
-
-    .contact h1{
-        width: 100%;
-        text-align: center;
-    }
-
-    .contact p{
-        width: 100%;
-    }
-
-    .asend{
-        margin-left: 0!important;
-    }
-
-    .last-item{
-        padding-bottom: 30px;
-    }   
+.call {
+    display: flex;
 }
 
+@media (max-width: 768px) {
+  .line {
+    margin-left: 0;
+  }
 
+  .na {
+    flex-direction: column;
+  }
+
+  .name {
+    width: 100%;
+  }
+
+  .new {
+    margin-bottom: 25px;
+  }
+
+  .img {
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .pro {
+    gap: 25px;
+  }
+
+  .pro h4 {
+    font-size: 18px;
+  }
+
+  a :nth-child(2) {
+    padding: 0 !important;
+  }
+
+  .landing h4 {
+    font-size: 18px;
+  }
+
+  .contact {
+    width: 120%;
+  }
+
+  .call-mobile{
+    display: none;
+  }
+
+  .call{
+    display: flex;
+  }
+}
+
+@media (max-width: 500px) {
+  .na {
+    flex-direction: column;
+    row-gap: 37px;
+  }
+
+  .namep {
+    text-align: center;
+  }
+
+  .name {
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .lo {
+    width: 100% !important;
+    font-size: 1rem;
+  }
+
+  .img {
+    width: 100% !important;
+  }
+
+  .img img {
+    width: 100%;
+  }
+
+  .abilities {
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .acce {
+    margin: 0;
+  }
+
+  .boot {
+    margin: 0;
+  }
+
+  .tail {
+    margin: 0;
+  }
+
+  .project {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .pro {
+    flex-direction: column;
+    row-gap: 60px;
+  }
+
+  .pro img {
+    width: 100%;
+  }
+
+  .landing {
+    flex-direction: column;
+    width: 100%;
+    row-gap: 45px;
+  }
+
+  .landing img {
+    width: 100%;
+  }
+
+  #form {
+    flex-direction: column;
+    row-gap: 25px;
+    width: 100%;
+    padding: 0px 25px;
+  }
+
+  .contact {
+    width: 100%;
+  }
+
+  .contact h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact p {
+    width: 100%;
+  }
+
+  .asend {
+    margin-left: 0 !important;
+  }
+
+  .last-item {
+    padding-bottom: 30px;
+  }
+
+  .call{
+    display: none!important;
+  }
+
+  .call-mobile{
+    display: block!important;
+  }
+}
